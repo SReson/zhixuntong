@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FileDownloadActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/id_xls_bt_open"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="短信群发"/>
+
+        <Button
+            android:id="@+id/id_xls_bt_download"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="导入数据" />
+
+    </LinearLayout>
+<EditText
+    android:id="@+id/id_xls_tv_phone"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:maxLines="3"
+    android:textSize="16sp"
+    />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="1dip"
+                android:layout_height="match_parent"
+                android:background="#000000"
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:text="ID"
+                />
+            <TextView
+                android:layout_width="1dip"
+                android:layout_height="match_parent"
+                android:background="#000000"
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:text="姓名"
+                />
+            <TextView
+                android:layout_width="1dip"
+                android:layout_height="match_parent"
+                android:background="#000000"
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:text="手机号"
+                />
+            <TextView
+                android:layout_width="1dip"
+                android:layout_height="match_parent"
+                android:background="#000000"
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:text="参数1"
+                />
+            <TextView
+                android:layout_width="1dip"
+                android:layout_height="match_parent"
+                android:background="#000000"
+                />
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:background="#000000"
+            />
+
+        <ListView
+            android:id="@+id/id_xls_lv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#000000"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

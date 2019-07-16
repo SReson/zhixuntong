@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">智讯通</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <string name="read_xlsx">Read XLSX</string>
+    <string name="write_xlsx">Write XLSX</string>
+    <string name="send_to">Send to...</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
